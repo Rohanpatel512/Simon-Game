@@ -1,0 +1,78 @@
+body {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+.title {
+	margin-left: 43%;
+	color: white;
+	font-size: 50px;
+}
+
+#game-title {
+	font-family: 'Righteous', cursive;
+}
+
+
+.circle {
+	background-color: black;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	margin-top: 10%;
+}
+
+
+.game-board {
+	margin-left: 37%;
+	margin-top: 220px;
+	width: 600px;
+	height: 550px;
+}
+
+
+
+#game-title {
+	/*color: black;
+	margin-left: 220px;*/
+}
+
+
+.button {
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	border: none;
+}
+
+#greenBtn, #yellowBtn {
+	/*margin-right: 50px;*/
+}
+
+#greenBtn {
+	background-color: green;
+	border-top-left-radius: 250px;
+}
+
+#blueBtn {
+	background-color: blue;
+	border-bottom-right-radius: 250px;
+
+}
+
+#yellowBtn {
+	background-color: yellow;
+	border-bottom-left-radius: 250px;
+}
+
+#redBtn {
+	background-color: red;
+	border-top-right-radius: 250px;
+
+}
